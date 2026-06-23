@@ -1,0 +1,29 @@
+{
+  "version": "2.5.1",
+  "created": "2026-06-23T10:45:00+08:00",
+  "last_run": "2026-06-23T13:25:00+08:00",
+  "self_diagnosis": {
+    "fast_track": {"passed": 18, "total": 18},
+    "slow_track": {"passed": 5, "total": 5},
+    "dimensions": {"passed": 15, "total": 15},
+    "reflection": {"passed": 8, "total": 8},
+    "overall_score": "18+5+15+R8✅"
+  },
+  "health": {
+    "status": "healthy",
+    "warnings": [
+      "D15 ADR 无实填（已识别为🟡，待下次审查补充）",
+      "文件行数3079（超3000上限，建议拆分大型章节为独立文件）"
+    ]
+  },
+  "evolution": {
+    "signals": {
+      "alerts_5_cycle": 0,
+      "same_issue_repeat": 0,
+      "version_aging_cycles": 0,
+      "template_drift": false
+    },
+    "last_degradation_check": "2026-06-23T13:25:00+08:00",
+    "next_cron_check": "2026-06-24T09:00:00+08:00"
+  }
+}
